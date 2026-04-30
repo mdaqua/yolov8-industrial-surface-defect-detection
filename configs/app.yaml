@@ -1,0 +1,14 @@
+model_path: weights/best.pt
+upload_dir: outputs/uploads
+result_dir: outputs/results
+confidence_threshold: 0.25
+iou_threshold: 0.7
+image_size: 640
+max_upload_mb: 20
+class_names:
+  - crazing
+  - inclusion
+  - patches
+  - pitted_surface
+  - rolled_in_scale
+  - scratches

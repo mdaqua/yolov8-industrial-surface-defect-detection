@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.pycache_compile/
+.pytest_cache/
+.venv/
+venv/
+
+runs/
+outputs/uploads/
+outputs/results/
+weights/*.pt
+data/raw/
+data/processed/
+
+.DS_Store

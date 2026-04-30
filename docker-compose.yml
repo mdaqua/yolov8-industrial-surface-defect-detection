@@ -1,0 +1,11 @@
+services:
+  defect-detection-api:
+    build: .
+    container_name: defect-detection-api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./weights:/app/weights
+      - ./outputs:/app/outputs
+      - ./configs:/app/configs
+    restart: unless-stopped

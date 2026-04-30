@@ -1,0 +1,11 @@
+model: yolov8n.pt
+data: data/data.yaml
+epochs: 100
+imgsz: 640
+batch: 16
+device: cpu
+project: runs/train
+name: defect_yolov8n
+patience: 30
+workers: 4
+seed: 42
