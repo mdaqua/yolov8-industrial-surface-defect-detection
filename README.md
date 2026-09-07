@@ -2,8 +2,6 @@
 
 基于 YOLOv8 的工业表面缺陷检测实验工程，覆盖数据集整理、训练、验证、图片推理、FastAPI 服务和 Docker 部署。
 
-面向视觉算法初学者的实现原理说明见：[docs/IMPLEMENTATION_GUIDE.md](/Users/mdaqua/Project/yolov8-industrial-surface-defect-detection/docs/IMPLEMENTATION_GUIDE.md)。
-
 ## 项目结构
 
 ```text
